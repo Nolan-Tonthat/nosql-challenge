@@ -43,11 +43,6 @@ Some notes to be aware of while you are exploring the dataset:
 
 Use the following questions to explore the database, and find the answers, so you can provide them to the magazine editors.
 
-Unless otherwise stated, for each question:</br>
-* Use count_documents to display the number of documents contained in the result.
-* Display the first document in the results using `pprint`.
-* Convert the result to a Pandas DataFrame, print the number of rows in the DataFrame, and display the first 10 rows.
-
 1. Which establishments have a hygiene score equal to 20?
 
 2. Which establishments in London have a RatingValue greater than or equal to 4?
@@ -55,3 +50,9 @@ Unless otherwise stated, for each question:</br>
 3. What are the top 5 establishments with a RatingValue of 5, sorted by lowest hygiene score, nearest to the new restaurant added, "Penang Flavours"?
 
 4. How many establishments in each Local Authority area have a hygiene score of 0? Sort the results from highest to lowest, and print out the top ten local authority areas.
+
+Unless otherwise stated, for each question:</br>
+* Use count_documents to display the number of documents contained in the result.
+* Display the first document in the results using `pprint`.
+* Convert the result to a Pandas DataFrame, print the number of rows in the DataFrame, and display the first 10 rows.
+
