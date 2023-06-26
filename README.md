@@ -43,7 +43,8 @@ Some notes to be aware of while you are exploring the dataset:
 
 Use the following questions to explore the database, and find the answers, so you can provide them to the magazine editors.
 
-Unless otherwise stated, for each question:
+  Unless otherwise stated, for each question:
+
     * Use count_documents to display the number of documents contained in the result.
     * Display the first document in the results using `pprint`.
     * Convert the result to a Pandas DataFrame, print the number of rows in the DataFrame, and display the first 10 rows.
